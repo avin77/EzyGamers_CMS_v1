@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 using System.IO;
 using System.Collections.Generic;
-namespace ezygamers.CMS
+namespace ezygamers.cmsv1
 {
     public class LevelConfigTool : EditorWindow
     {

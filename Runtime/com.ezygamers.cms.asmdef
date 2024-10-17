@@ -1,6 +1,6 @@
 {
-    "name": "com.ezygamer.CMS",
-    "rootNamespace": "com.ezygamer.CMS",
+    "name": "com.ezygamers.cmsv1",
+    "rootNamespace": "com.ezygamers.cmsv1",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

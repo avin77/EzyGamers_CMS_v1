@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-namespace ezygamers.CMS
+namespace ezygamers.cmsv1
 {
     [System.Serializable]
     public abstract class  OptionData

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ezygamers.CMS
+namespace ezygamers.cmsv1
 {
  [CreateAssetMenu(fileName ="Question Base",menuName ="Create QuestionBase")]
     public class QuestionBaseSO:ScriptableObject

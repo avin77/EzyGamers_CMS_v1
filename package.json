@@ -1,14 +1,14 @@
 {
-  "name": "com.ezygamer.cms",
+  "name": "com.ezygamers.cmsv1",
   "version": "1.0.0",
-  "displayName": "com.ezygamer.CMS",
+  "displayName": "com.ezygamers.CMS",
   "description": "By using this you can create and modify multiple level at a time",
-  "unity": "2019.1",
-  "unityRelease": "0b5",
+  "unity": "2022.3",
+  "unityRelease": "33f1",
+  "forked":"https://github.com/avin77/Package_LevelConguration.git",
 
   "author": {
-    "name": "Satyam Bera",
-    "email": "berasatyam007@gmail.com"
-
+    "name": "Rohan Kumar",
+    "email": "rohan37kumar@gmail.com"
   }
 }

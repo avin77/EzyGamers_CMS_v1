@@ -1,4 +1,4 @@
-﻿namespace ezygamers.CMS
+﻿namespace ezygamers.cmsv1
 {
     [System.Serializable]
     public class TextContent
