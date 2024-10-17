@@ -1,0 +1,16 @@
+{
+    "name": "com.ezygamer.CMS.Editor",
+    "rootNamespace": "com.ezygamer.CMS.Editor",
+    "references": [
+        "GUID:21258390c116ea34faa4133fc50f857f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
