@@ -35,12 +35,6 @@ namespace ezygamers.cmsv1
 
     }
 
-    // Helper method to get the answer content as specific type
-    public T GetAnswerContent<T>() where T : Object
-        {
-            return correctAnswer?.GetContent<T>();
-        }
-
     public enum ContentType
     {
         Learning,
