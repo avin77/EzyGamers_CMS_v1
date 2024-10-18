@@ -5,18 +5,11 @@ namespace ezygamers.cmsv1
     public class AnswerContent
     {
         public Object content;  // Using UnityEngine.Object to accept any Unity object
-        public string answerType;  // String to specify the type ("Image" or "Text")
 
-        public AnswerContent(Object content, string type)
+        public AnswerContent(Object content)
         {
             this.content = content;
-            this.answerType = type;
         }
 
-        // Helper method to get content as specific type
-        public T GetContent<T>() where T : Object
-        {
-            return content as T;
-        }
     }
 }

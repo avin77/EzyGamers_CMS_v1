@@ -15,19 +15,12 @@ namespace ezygamers.cmsv1
         public ImageContent questionImage; //single learning image
         public AudioContent questionAudio; //audio
 
-        //[Header("English Option Data")]
-        //public List<TextOption> englishWordsOptions = new List<TextOption>();
-
-        //[Header("Hindi Option Data")]
-        //public List<TextOption> hindiWordsOption = new List<TextOption>();
         [Header("Image Option Data")]
         public List<ImageOption> imageOptions = new List<ImageOption>(); //images for questions
-        //[Header("Audio Option Data")]
-        //public List<AudioOption>audioOptions=new List<AudioOption>();
 
         [Header("Correct Answer")]
         public AnswerContent correctAnswer;
-        public string answerType;  // Stores "Image" or "Text"
+        public AnswerType answerType;  // Stores "Image" or "Text"
 
         [Header("Content Type")]
         public ContentType contentType;
@@ -48,7 +41,11 @@ namespace ezygamers.cmsv1
         Easy,
         Medium,
         Hard
-
+    }
+    public enum AnswerType
+    {
+        Image,
+        Text
     }
 
 }
