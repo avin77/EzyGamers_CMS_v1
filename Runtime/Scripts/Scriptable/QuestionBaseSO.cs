@@ -4,11 +4,11 @@ using UnityEngine;
 
 namespace ezygamers.cmsv1
 {
- [CreateAssetMenu(fileName ="Question Base",menuName ="Create QuestionBase")]
-    public class QuestionBaseSO:ScriptableObject
+    [CreateAssetMenu(fileName = "Question Base", menuName = "Create QuestionBase")]
+    public class QuestionBaseSO : ScriptableObject
     {
         public int questionNo;
-        
+
         [Header("Question Content")]
         public TextContent questionText; //ul
         public TextContent hindiText;  //kl
@@ -24,15 +24,22 @@ namespace ezygamers.cmsv1
         public List<ImageOption> imageOptions = new List<ImageOption>(); //images for questions
         //[Header("Audio Option Data")]
         //public List<AudioOption>audioOptions=new List<AudioOption>();
-       
+
         [Header("Correct Answer")]
-        public int correctAnswerIndex; //correct image index in imageOptions List
+        public AnswerContent correctAnswer;
+        public string answerType;  // Stores "Image" or "Text"
 
         [Header("Content Type")]
         public ContentType contentType;
         public DifficultyLevel difficultyLevel;
 
     }
+
+    // Helper method to get the answer content as specific type
+    public T GetAnswerContent<T>() where T : Object
+        {
+            return correctAnswer?.GetContent<T>();
+        }
 
     public enum ContentType
     {
@@ -42,11 +49,12 @@ namespace ezygamers.cmsv1
         QType3
 
     }
-    public enum DifficultyLevel {
+    public enum DifficultyLevel
+    {
         Easy,
         Medium,
         Hard
-    
+
     }
 
 }
