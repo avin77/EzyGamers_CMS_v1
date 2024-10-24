@@ -6,6 +6,7 @@ namespace ezygamers.cmsv1
     public class ImageOption : OptionData
     {
         public Sprite sprite;
+        public string text;
 
         public override AudioClip GetAudioClip()
         {
@@ -19,7 +20,7 @@ namespace ezygamers.cmsv1
 
         public override string GetText()
         {
-            return null;
+            return text;
         }
     }
 

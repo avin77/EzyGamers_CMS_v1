@@ -12,7 +12,7 @@ namespace ezygamers.cmsv1
         [Header("Question Content")]
         public TextContent questionText; //ul
         public TextContent hindiText;  //kl
-        public ImageContent learningImage; //single learning image
+        public ImageContent learningImage; //learning image data
         public AudioContent questionAudio; //audio
 
         [Header("Options Data")]
